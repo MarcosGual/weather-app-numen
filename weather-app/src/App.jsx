@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { getFromLocalStorage } from './utils/localStorage';
-import Header from './components/ui/Header';
 import SearchForm from './components/weather/SearchForm';
 import RecentSearches from './components/weather/RecentSearches';
 import LoadingSpinner from './components/ui/LoadingSpinner';

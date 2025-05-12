@@ -1,3 +1,6 @@
+import ErrorMessage from "../weather/ErrorMessage";
+import useWeatherAPI from "../../hooks/useWeatherAPI";
+
 const Header = ({ darkTheme, toggleTheme }) => (
   <header className="flex justify-between items-center mb-6">
     <h1 className="text-2xl font-bold">Visor de Clima</h1>
