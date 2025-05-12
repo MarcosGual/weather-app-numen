@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { getFromLocalStorage } from './utils/localStorage';
-
 import Header from './components/ui/Header';
 import SearchForm from './components/weather/SearchForm';
 import RecentSearches from './components/weather/RecentSearches';
@@ -8,9 +7,9 @@ import LoadingSpinner from './components/ui/LoadingSpinner';
 import ErrorMessage from './components/weather/ErrorMessage';
 import WeatherCard from './components/weather/WeatherCard';
 import Footer from './components/ui/Footer';
-
 import useTheme from './hooks/useTheme';
 import useWeatherAPI from './hooks/useWeatherAPI';
+import './index.css';
 
 function App() {
   const [city, setCity] = useState('');
